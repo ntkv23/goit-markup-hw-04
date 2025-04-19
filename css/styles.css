@@ -11,7 +11,9 @@
 /* header */
 .header{
     border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08)
     
 }
 header{
@@ -95,6 +97,7 @@ width: 1158px;
     display: block;
     position: relative;
     color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-nav:hover,
 
@@ -116,12 +119,11 @@ width: 1158px;
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #434455;
-        .list-studio{
+        
             color: #2e2f42;
             transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-
-        }
+        
         
 }
 .contacts-out{
@@ -325,6 +327,8 @@ font-family: "Roboto", sans-serif;
         
     }
         .social-spisok{
+            border-radius: 50%;
+            background-color: #4d5ae5;
             width: 40px;
             height: 40px;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
@@ -486,9 +490,7 @@ ul{
 }
 
 
-.dd{
-    background-image: url(https://ac.goit.global/fullstack/html-css-v2/module-4/autochecks/m04-human.jpg);
-}
+
 .footer-media{
     display: flex;
     flex-wrap: wrap;
@@ -503,13 +505,13 @@ ul{
 /* .section-three-icon:hover{
     
 } */
-.section-three-icon:hover{
+/* .section-three-icon:hover{
     fill: orange;
     
 
 }
 .section-three-icon:focus{
-    fill: orange;
+    fill: orange; */
     
         
 }
