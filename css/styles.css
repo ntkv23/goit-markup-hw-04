@@ -93,7 +93,8 @@ width: 1158px;
     color: #2e2f42;
     padding: 24px 0;
     display: block;
-    
+    position: relative;
+    color: #404bbf;
 }
 .list-nav:hover,
 
