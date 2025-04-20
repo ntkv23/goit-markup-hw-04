@@ -309,14 +309,11 @@ font-family: "Roboto", sans-serif;
     
 }
 .section-three-icon{
-    /* display: flex;
-    justify-content: center;
-    gap: 24px; */
-    fill: #4d5ae5;
+    fill: #f4f4fd;
     stroke: white;
     height: 40px;
 
-    
+
     }
     .section-three-social-list{
         display: flex;
@@ -332,6 +329,7 @@ font-family: "Roboto", sans-serif;
             width: 40px;
             height: 40px;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
         }
 .profession{
     padding: 32px 0;
@@ -493,6 +491,9 @@ ul{
 }
 
 .footer-social{
+    align-items: baseline;
+    display: flex;
+    
 
 
 }
@@ -505,6 +506,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .footer-social-ul{
     display: flex;
     gap: 16px;
+
+
+}
+.footer-socila-head{
 
 
 }
@@ -537,9 +542,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 16px;
 }
 .footer-media{
-    display: flex;
+    /* display: flex;
     
-    align-items: baseline;
+    align-items: baseline; */
 
 }
 .social-title-footer{
