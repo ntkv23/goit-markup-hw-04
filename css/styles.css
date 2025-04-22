@@ -40,8 +40,7 @@ body {
 }
 .container{
 width: 1158px;
-/* display: flex;
-align-items: baseline; */
+
 
     margin: 0 auto;
     padding: 0 15px;
@@ -116,9 +115,7 @@ align-items: baseline; */
     font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
-    
-        /* line-height: 24px; */
-        line-height: 150%;
+    line-height: 150%;
         letter-spacing: 0.02em;
         color: #434455;
         
