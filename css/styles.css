@@ -323,7 +323,7 @@ font-family: "Roboto", sans-serif;
         justify-content: center;
         align-items: center;
         gap: 24px;
-        height: 40px;
+        /* height: 40px; */
         
     }
         .social-spisok{
@@ -581,10 +581,16 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 16px;
 }
 .footer-media{
-    /* display: flex;
+    display: flex;
     
-    align-items: baseline; */
+    align-items: baseline;
 
+}
+/* .footer-cont{
+    display: flex;
+
+    
+        align-items: baseline; */
 }
 .social-title-footer{
     
